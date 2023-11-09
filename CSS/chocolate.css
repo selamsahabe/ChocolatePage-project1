@@ -1,17 +1,28 @@
+/************************* BODY ************************************/
 body{
     background-color:antiquewhite;
     
 }
-div { text-align: center; 
+.firstdiv{ border: 4px outset gold;
+    background-color: azure;
+    text-align: left;
 }
 
 h1{color:chocolate; 
     font-style: italic; 
     font-size: 28px;
+    
 }
-
+/*********************************** MAIN ************************/
 h3 {color: chocolate;
+    font-family: Cursive;
 }
+p{
+    color: black;
+  /* font-size: 20px; */
+  /* font-size: 0.875em; */
+}
+/***********************FOOTER************************/
 footer{
     text-align: center;
 }
