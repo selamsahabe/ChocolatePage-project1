@@ -1,28 +1,53 @@
+/****************************** LAYOUT *************************/
+
+.text-red{
+    color: red;
+}
+.fs-small {
+    font-size: 20px;
+}
+.fs-medium {
+    font-size: 20px;
+}
+
+.fs-large {
+    font-size: 30px;
+}
+
+.first-article {
+    font-size: 40px;
+}
 /************************* BODY ************************************/
 body{
-    background-color:antiquewhite;
+    background-color:white;
     
 }
-.firstdiv{ border: 4px outset gold;
+
+.aboutus-body {
+    text-align: center;
+}
+
+.firstdiv { border: 4px outset gold;
     background-color: azure;
     text-align: left;
 }
 
-h1{color:chocolate; 
+h1 {color:chocolate; 
     font-style: italic; 
     font-size: 28px;
     
 }
+
 /*********************************** MAIN ************************/
 h3 {color: chocolate;
     font-family: Cursive;
 }
-p{
+p {
     color: black;
   /* font-size: 20px; */
   /* font-size: 0.875em; */
 }
 /***********************FOOTER************************/
-footer{
+footer {
     text-align: center;
 }
