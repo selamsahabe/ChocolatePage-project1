@@ -1,0 +1,17 @@
+body{
+    background-color:antiquewhite;
+    
+}
+div { text-align: center; 
+}
+
+h1{color:chocolate; 
+    font-style: italic; 
+    font-size: 28px;
+}
+
+h3 {color: chocolate;
+}
+footer{
+    text-align: center;
+}
