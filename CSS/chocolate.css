@@ -27,8 +27,8 @@ body{
     text-align: center;
 }
 
-.firstdiv { border: 4px outset gold;
-    background-color: azure;
+.fristbutton { border: 6px outset gold;
+    background-color:white;
     text-align: left;
 }
 
@@ -51,3 +51,14 @@ p {
 footer {
     text-align: center;
 }
+a.test:hover {
+     color: red; 
+}
+
+a:active {
+     position: relative; top: 5px; 
+    }
+    
+/* ul > li:first-child {
+         color: orange; 
+        } */
