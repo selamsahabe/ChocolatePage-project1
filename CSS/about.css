@@ -1,0 +1,71 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.gradient{
+    background-color: white;
+}
+
+.contanier {
+    
+    width: 1000px;
+    /* margin-left:auto;
+    margin-right: auto; */
+    margin: 50px auto 0 ;
+    border-radius: 15px 50px 30px 5px; 
+}
+    
+
+
+.left-bar {
+    pad
+    width: 200px;
+    height: 790px;
+    float: left;
+    margin-right:50px;
+    border-radius: 15px;
+
+}
+.content { 
+    width: 750px;
+    float: left;
+    height: auto;   
+ }   
+
+.card{
+    width: 36%;
+    float: left;
+    margin:5%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+
+.clear{
+    clear: both;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.bg-red{
+    background-color:red
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-purple{
+    background-color: #DA70D6;
+}
+
+.bg-cream{
+    background-color:#E6E6FA;
+}
