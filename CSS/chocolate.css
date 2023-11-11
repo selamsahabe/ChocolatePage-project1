@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 .fs-medium {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .fs-large {
@@ -17,6 +17,16 @@
 .first-article {
     font-size: 40px;
 }
+
+/******************************** HEADER *************************************/
+
+.fristbutton {border: 6px outset gold;
+    background-color:white;
+    text-align: left;
+}
+
+
+
 /************************* BODY ************************************/
 body{
     background-color:white;
@@ -27,18 +37,13 @@ body{
     text-align: center;
 }
 
-.fristbutton {border: 6px outset gold;
-    background-color:white;
-    text-align: left;
-}
-
 h1 {color:chocolate; 
     font-style: italic; 
     font-size: 28px;
     
 }
 
-/*********************************** MAIN ************************/
+/*********************************** MAIN *********************/
 h3 {color: chocolate;
     font-family: Cursive;
 }
@@ -48,6 +53,13 @@ p {
   /* font-size: 0.875em; */
 }
 /***********************FOOTER************************/
+.box{
+    
+    width: 800px;
+    height: 200px;
+    background-color: antiquewhite;
+    border: 3px outset gray;
+}
 footer {
     text-align: center;
 }
