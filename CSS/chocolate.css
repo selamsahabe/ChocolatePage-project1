@@ -1,5 +1,71 @@
 /****************************** LAYOUT *************************/
 
+.gradient{
+    background-color: white;
+    
+}
+
+.btn {
+    padding: 20px 10 px;
+}
+
+.contanier {
+    
+    width: 1250px;
+    /* margin-left:auto;
+    margin-right: auto; */
+    margin: 50px auto 0 ;
+    border-radius: 10px; 
+    padding: 10px;
+    -webkit-box-shadow: 5px 20px 23px -21px rgba(55, 51, 55, 1);
+-moz-box-shadow: 5px 20px 23px -21px rgba(55, 51, 55, 1);
+box-shadow: 5px 20px 23px -21px rgba(55, 51, 55, 1);
+}
+    
+
+
+.left-bar {
+
+    width: 350px;
+    height: 790px;
+    float: left;
+    margin: 50px 30px 0 0;
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+-moz-box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+}
+
+.content { 
+    width: 750px;
+    float: left;
+    height: auto;   
+    
+ }   
+
+.card{
+    width: 100%;
+    float: left;
+    margin:7% 0% 0% 3%;
+    padding: 5%;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+-moz-box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+}
+
+.bg-chocolote{
+    background-color: #A0522D
+    ;
+}
+
+.bg-lightchoco{
+    background:#D2B48C;
+}
+
+/****** Text-Color*********/
+
 .text-red{
     color: red;
 }
@@ -22,10 +88,31 @@
 
 .fristbutton {border: 6px outset gold;
     background-color:white;
-    text-align: left;
+  
+    border-radius: 15px;
+    text-decoration: none;
 }
 
+.secondbutton{border: 6px outset gold;
+    background-color:white;
+    
+    border-radius: 15px;
+    text-decoration: none;
+}
 
+.thirdbutton{border: 6px outset gold;
+    margin: 0% 30% 0% 10%; 
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+   
+    -webkit-box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+   -moz-box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+    box-shadow: 5px 3px 24px -5px rgba(66, 68, 90, 1);
+}
+.btn {
+text-decoration: none;
+}
 
 /************************* BODY ************************************/
 body{
@@ -35,14 +122,14 @@ body{
 
 
 
-h1 {color:chocolate; 
-    font-style: italic; 
-    font-size: 28px;
+h1 {color:white; 
+     font-size: 28px;
+     text-align: center;
     
 }
 
 /*********************************** MAIN *********************/
-h3 {color: chocolate;
+h3 {
     font-family: Cursive;
 }
 p {
@@ -51,13 +138,21 @@ p {
   /* font-size: 0.875em; */
 }
 /***********************FOOTER************************/
-.box{
+
+.footer {
+    
+    width: 1250px;
+    margin: 50px auto 0 ;
+    border-radius: 15px 50px 30px 5px; 
+    float: left;
+}
+/* .box{
     
     width: 800px;
     height: 200px;
     background-color: antiquewhite;
     border: 3px outset gray;
-}
+} */
 footer {
     text-align: center;
 }
